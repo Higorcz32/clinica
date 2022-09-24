@@ -32,4 +32,9 @@ public class ConsultaMedica {
 
     @OneToOne(cascade = CascadeType.ALL)
     private Prescricao prescricao;
+
+    public Double getValor(){
+        valor = prescricao.getListaMedicamentos().stream().mapToDouble(ItemMedicamento::getSubTotal).sum();
+        return valor;
+    }
 }

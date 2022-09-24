@@ -23,6 +23,6 @@ public class Prescricao {
     private String recomendacao;
 
     @OneToMany(cascade = CascadeType.ALL)
-    private List<Medicamento> listaMedicamentos;
+    private List<ItemMedicamento> listaMedicamentos;
 
 }

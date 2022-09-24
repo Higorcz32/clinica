@@ -26,8 +26,13 @@ public class ItemMedicamento {
 
     private Double subTotal;
 
+    //public Double getSubTotal() {
+    //    subTotal = medicamento.getValor() * quant;
+    //    return subTotal;
+    //}
+
+
     public Double getSubTotal() {
-        subTotal = medicamento.getValor() * quant;
         return subTotal;
     }
 }

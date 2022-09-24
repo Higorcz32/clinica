@@ -11,5 +11,4 @@ public class ClinicaBackendApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ClinicaBackendApplication.class, args);
 	}
-
 }
